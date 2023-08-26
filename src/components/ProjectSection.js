@@ -48,7 +48,7 @@ const ProjectSection = () => {
             />
 
             {/* Card grid */}
-            <div className="flex items-center justify-center flex-wrap gap-x-4 md:gap-x-8 lg:gap-x-16">
+            <div className="flex items-center justify-center flex-wrap gap-x-2 md:gap-x-8 lg:gap-x-16">
               {filteredData.map((data) => (
                 <Card key={data.id} data={data} />
               ))}

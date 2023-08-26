@@ -68,28 +68,28 @@ const ServicesSection = () => {
 
           {/* Projects done, years of experience, satisfied clients & design items */}
           <div className="mt-8 md:mt-12">
-            <div className="flex justify-between gap-6 items-center ">
-              {/* ... Other data cards ... */}
-              <div className="bg-gray-800 rounded-md p-6 flex flex-col items-center justify-center space-y-4 w-full sm:w-1/2 md:w-1/3">
-                <h4 className="text-lg md:text-xl text-gray-400 font-bold mb-2">
-                  100+
-                </h4>
-                <p className="text-gray-600">Projects Done</p>
-              </div>
-              <div className="bg-gray-800 rounded-md p-6 flex flex-col items-center justify-center space-y-4 w-full sm:w-1/2 md:w-1/4">
-                <h4 className="text-lg md:text-xl text-gray-400 font-bold mb-2">
-                  +3 years
-                </h4>
-                <p className="text-gray-600">Experience</p>
-              </div>
-              <div className="bg-gray-800 rounded-md p-6 flex flex-col items-center justify-center space-y-4 w-full sm:w-1/2 md:w-1/3">
-                <h4 className="text-lg md:text-xl text-gray-400 font-bold mb-2">
-                  15+
-                </h4>
-                <p className="text-gray-600">Satisfied Clients</p>
-              </div>
-            </div>
-          </div>
+  <div className="flex flex-col md:flex-row justify-between gap-6 items-center">
+    <div className="bg-gray-800 rounded-md p-6 flex flex-col items-center justify-center space-y-4 w-full md:w-1/3">
+      <h4 className="text-lg md:text-xl text-gray-400 font-bold mb-2">
+        50+
+      </h4>
+      <p className="text-gray-600">Projects Done</p>
+    </div>
+    <div className="bg-gray-800 rounded-md p-6 flex flex-col items-center justify-center space-y-4 w-full md:w-1/4">
+      <h4 className="text-lg md:text-xl text-gray-400 font-bold mb-2">
+        +3 years
+      </h4>
+      <p className="text-gray-600">Experience</p>
+    </div>
+    <div className="bg-gray-800 rounded-md p-6 flex flex-col items-center justify-center space-y-4 w-full md:w-1/3">
+      <h4 className="text-lg md:text-xl text-gray-400 font-bold mb-2">
+        15+
+      </h4>
+      <p className="text-gray-600">Satisfied Clients</p>
+    </div>
+  </div>
+</div>
+
         </div>
       </div>
     </section>

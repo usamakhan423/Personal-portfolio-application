@@ -9,7 +9,7 @@ const HeroSection = () => {
 
 
   return (
-    <section id="hero" className="py-16 md:py-36 bg-gray-900">
+    <div className="py-16 md:py-36 bg-gray-900 p-4">
       <div className="container my-5 mx-auto flex flex-col md:flex-row items-center justify-between">
         {/* Left side with text */}
         <div className="md:w-1/2 md:pr-8 flex flex-col items-center md:items-start">
@@ -40,7 +40,7 @@ const HeroSection = () => {
           />
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
