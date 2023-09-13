@@ -9,7 +9,7 @@ const Navbar = () => {
         {/* Brand/logo */}
         <div className="md:w-auto mb-4 md:mb-0">
           <h1 className="text-lg font-bold drop-shadow-lg text-white md:text-lg">
-            U-KODE-INNOVATIONS
+            DevPortfolio
           </h1>
         </div>
 

@@ -35,7 +35,10 @@ const ProjectSection = () => {
             My Masterpiece Collections
           </h3>
           <p className="text-lg text-gray-400 mb-6">
-          "Aspiring full-stack developer with self-taught proficiency in diverse domains. From web development to app creation, my journey is a testament to growth. Let's connect to explore my dynamic portfolio."
+            "Aspiring full-stack developer with self-taught proficiency in
+            diverse domains. From web development to app creation, my journey is
+            a testament to growth. Let's connect to explore my dynamic
+            portfolio."
           </p>
 
           {/* Project Filtering Section */}

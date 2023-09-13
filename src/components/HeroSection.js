@@ -6,8 +6,6 @@ const HeroSection = () => {
   const phoneNumber = "03441839388"; // Replace with your actual phone number
   const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
 
-
-
   return (
     <div className="py-16 md:py-36 bg-gray-900 p-4">
       <div className="container my-5 mx-auto flex flex-col md:flex-row items-center justify-between">
@@ -22,7 +20,7 @@ const HeroSection = () => {
             JAVASCRIPT ENTHUSIAST
           </p>
           <p className="text-lg md:text-2xl text-gray-500 mb-4 md:mb-6 text-center md:text-left">
-            FullStack Developer | UI Designer
+            Junior FullStack Developer | UI Designer
           </p>
           <button className="border-2 border-orange-400 hover:border-orange-500 hover:text-orange-500 text-orange-400 font-bold py-2 px-4 md:py-3 md:px-6 rounded">
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
